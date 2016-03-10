@@ -15,7 +15,6 @@ process.env.NODE_ENV = process.env.NODE_ENV || 'development';
 module.exports = function( )
 {
 	var promise = new mongoose.Promise( );
-	console.log( 'test' );
 
 
 	// Grab all the models.
